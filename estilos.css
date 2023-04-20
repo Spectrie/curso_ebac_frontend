@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    border: 0%;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body>header{
+    background-color: rgb(80, 41, 5);
+    padding: 16px 0;
+    color: white;
+}
+
+header li a{
+    color: white;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+
+    .articles article img{
+        /*height: 180px;*/
+        width: 100%;
+    }
+
+    .articles article{
+        width: 30%;
+    }
+
+    section{
+        padding: 16px 0px;
+    }
+
+    section h2,
+    .articles article{
+        margin-bottom: 16px;
+    }
+
+    .articles article h3{
+        margin-top: 8px;
+        margin-bottom: 12px;
+    }
+
+    .articles article a{
+        background-color: blue;
+        color: white;
+        padding: 8px;
+        display: inline-block;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top: 8px;
+    }
+
+    .articles article a:hover{
+        text-decoration: underline;
+    }
+
+    .articles article p,
+    .articles article a{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .articles article h3{
+        font-size: 24px;
+    }
+
+    section h2{
+        font-size: 32px;
+    }
+    #sports{
+        background-color: rgb(150, 226, 150);
+    }
+    #sports .articles article a{
+        background-color: rgb(16, 155, 16);
+        color: black;
+    }
+    #economy{
+        background-color: rgb(236, 236, 124);
+    }
+    #economy .articles article a{
+        background-color: rgb(212, 140, 6);
+        color: black;
+    }
+    #entertainment{
+        background-color: rgb(224, 213, 230);
+    }
+    #tecnology{
+        background-color: rgb(162, 231, 208);
+    }
+    #tecnology .articles article a{
+        background-color: aqua;
+        color: black;
+    }
+    #entertainment .articles article a{
+        background-color: blueviolet;
+        color: black;
+    }
