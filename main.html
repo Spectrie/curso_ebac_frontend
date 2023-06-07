@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <h1>Formulário de cadastro</h1>
+    </header>
+
+    <section>
+        <div class="container">
+        <h2>Cadastro</h2>
+        <form>
+            <div class="campo-form">
+                <label for="nome">Nome completo</label>
+                <input type="text" id="name" name="nome"/>
+            </div>
+            <dov class="campo-form">
+                <label for="email">E-mail</label>
+                <input type="email" name="email"/>
+            </dv>
+            <div class="campo-form">
+                <label for="telefone">Número</label>
+                <input type="tel" id="telefone" name="numero"/>
+            </dv>
+            <div class="campo-form">
+                <label for="cpf">CPF</label>
+                <input type="tel" id="cpf" name="cpf"/>
+            </div>
+            <div class="campo-form">
+                <label for="Endereço">Endereço completo</label>
+                <input type="menssage" id="end" name="endereco"/>
+            </div>
+            <div class="campo-form">
+                <label for="cep">CEP</label>
+                <input type="tel" id="cepp" name="cep"/>
+            </div>
+            <button type="submit" class="campo-form">Cadastrar</button>
+        </div>
+        </form>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#telefone').mask('(00) 00000-0000')
+            $('#cpf').mask('000.000.000-00')
+            $('#cepp').mask('00_000-000')
+
+            $('form').validate({
+                rules: {
+                    nome:{
+                        required: true
+                    },
+                    email:{
+                        required: true,
+                    },
+                    numero:{
+                        required: true
+                    },
+                    cpf:{
+                        required: true
+                    },
+                    endereco:{
+                        required: true
+                    },
+                    cep:{
+                        required: true
+                    }
+                },
+                messages:{
+                    nome: 'Por favor insira seu nome completo.',
+                    email: 'Por favor insira seu email.',
+                    numero: 'Por favor insira seu número.',
+                    cpf: 'Por favor insita seu CPF',
+                    endereco: 'Por favor insira seu endereço completo',
+                    cep: 'Por favor insira seu CEP completo',
+                }
+            })
+        })
+    </script>
+</body>
+</html>
