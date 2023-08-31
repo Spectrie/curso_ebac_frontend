@@ -1,0 +1,11 @@
+
+.button{
+    
+    margin-top: 24px;
+    justify-content: center;
+    display: flex;
+    margin-top: 24px;
+}
+.container{
+    align-items: center;
+}
