@@ -1,0 +1,85 @@
+body{
+    background-color: #ffffe0d8;
+    font-family: 'Lemon', serif;
+    color: #B0E0E6;
+} 
+header{
+    margin-bottom: 20px;
+}
+.carousel-caption{
+    background-color:  rgba(138, 248, 239, 0.411);
+    color: #f0ebeb;
+    border-radius: 10px;
+}
+
+header img{
+    height: 50px;
+    margin-right: 20px;
+}
+header h1{
+    font-size: 30px;
+}
+nav ul li a{
+    font-family: 'Lemon', serif;
+}
+.navbar-nav .nav-link{
+    color: #B0E0E6;
+}
+.navbar-nav .nav-link:hover{
+    color: #47d0e2;
+}
+.navbar{
+    margin: auto;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 12px;
+    border: 1px solid rgba(248, 246, 138, 0.6);
+    box-shadow: rgba(114, 122, 66, 0.6) 2.4px 2.4px 3.2px;
+}
+#pe{
+    color: #5ca1aa;
+    background-color: rgb(230, 229, 200);
+    margin: auto;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 12px;
+    border: 1px solid rgba(248, 246, 138, 0.6);
+    box-shadow: rgba(114, 122, 66, 0.6) 2.4px 2.4px 3.2px;
+    text-align: center;
+}
+
+.container section{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+section button span{
+    color: #47d0e2;
+}
+
+.container section img{
+    border-radius: 10px;
+}
+section h3{
+    margin-top: 20px;
+}
+
+#sobre p{
+    color: #47d0e2;
+}
+#sobre{
+    background-color:  rgb(230, 229, 200);
+    border-radius: 10px;
+}
+
+#produtos .card{
+    background-color:   rgb(230, 229, 200);
+}
+
+#produtos .card a{
+    background-color: #B0E0E6;
+    border: none;
+    color: rgb(255, 255, 255);
+    
+}

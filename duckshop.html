@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duck-Shop</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="duckshop.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <img src="duckshop-Imgs/LOGO LOJA.png" alt="">
+                <h1>Duck Shop</h1>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="nav navbar-nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre a loja</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produtos">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Novidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Mais vendidos</a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <section>
+            <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="3000" class="carousel-item active"> 
+                        <img class="d-bloc w-100" src="duckshop-Imgs/patos medicos.jpg" alt="patos de borracha medicos">
+                        <div class="carousel-caption">
+                            <h3>Novos patos profissões a venda</h3>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item"> 
+                        <img class="d-bloc w-100" src="duckshop-Imgs/patos classicos.jpg" alt="fileira de patos">
+                        <div class="carousel-caption">
+                            <h3>Classicos com até 50% de desconto</h3>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item"> 
+                        <img class="d-bloc w-100" src="duckshop-Imgs/pato enfermeira.jpg" alt="patos na banheira">
+                        <div class="carousel-caption">
+                            <h3>Diversão para toda a família</h3>
+                        </div>
+                    </div>
+                </div>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </section>
+        <section id="sobre">
+            <h3>Sobre a loja</h3>
+            <p>
+                Bem-vindo à "Duck Shop", o paraíso para os amantes de patos de borracha! Localizada no coração da cidade, nossa loja é um oásis de encanto e diversão. Ao adentrar, o alegre quack ecoa pelos corredores, convidando os clientes a explorar nossa vasta coleção, que vai desde os clássicos patinhos amarelos até edições limitadas e modelos temáticos. Com uma equipe dedicada e sorridente, estamos prontos para ajudar a encontrar o pato perfeito para cada ocasião. Na "Duck Shop", celebramos a simplicidade e a alegria dos patos de borracha, transformando cada visita em uma experiência quacktástica e inesquecível. Venha fazer parte desse mundo encantado e descubra a magia de colecionar esses adoráveis companheiros aquáticos de plástico.
+            </p>
+        </section>
+        <section id="produtos">
+            <h3>Produtos</h3>
+            <div class="container">
+                <div class="row">   
+                    <div class="col-md-6 col-sm-12 col-lg-4">
+                        <div class="card">
+                            <img src="duckshop-Imgs/pato classico com espuma.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Patoso clássico</h5>
+                                <p class="card-text">
+                                    O eterno favorito amarelo traz nostalgia para coleções ou banhos relaxantes com seu design simples e sorriso amigável.
+                                </p>
+                                <h6 card-text>R$:19,99</h6>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-lg-4">
+                        <div class="card">
+                            <img src="duckshop-Imgs/pato enfermeira.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Patosa enfermeira</h5>
+                                <p class="card-text">
+                                    Vestida como enfermeira carinhosa, a Pata Enfermeira é ideal para presentear profissionais de saúde.
+                                </p>
+                                <h6 card-text>R$:19,99</h6>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-lg-4">
+                        <div class="card">
+                            <img src="duckshop-Imgs/pato freira.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Patana freira</h5>
+                                <p class="card-text">
+                                    Elegante e serena, a Pata Freira é vestida com hábito clerical, perfeita para presentear amigos religiosos ou colecionadores.
+                                </p>
+                                <h6 card-text>R$:19,99</h6>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-lg-4">
+                        <div class="card">
+                            <img src="duckshop-Imgs/pato trevo.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Patoso com sorte</h5>
+                                <p>
+                                    O Pato Trevo traz boa sorte com um trevo esculpido, sendo um presente encantador para momentos especiais e prometendo fortuna e alegria.
+                                </p>
+                                <h6 card-text>R$:19,99</h6>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-lg-4">
+                        <div class="card">
+                            <img src="duckshop-Imgs/patos na banheira.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Kit diversão no banho</h5>
+                                <p class="card-text">
+                                    Transforme o banho em um espetáculo de luzes e risos com o Pato Diversão no Banho.
+                                </p>
+                                <h6 card-text>R$:19,99</h6>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-lg-4">
+                        <div class="card">
+                            <img src="duckshop-Imgs/patos medicos.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Kit patos cirurgiões</h5>
+                                <p class="card-text">
+                                    Com um toque de humor médico, o Pato Cirurgião é vestido com traje de operação;
+                                </p>
+                                <h6 card-text>R$:19,99</h6>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer id="pe">
+        <h6>Desenvolvido por Victor Campbell</h6>
+    </footer>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
